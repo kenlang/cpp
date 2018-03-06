@@ -1,0 +1,24 @@
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
+double years(double);
+
+int main(){
+
+    double a;
+    cout << "enter the number of light years:";
+    cin >> a;
+    cout << a << " light years =  " << years(a) << " astronmomical units.";
+    
+
+    return 0;
+
+}
+double years(double a){
+
+return a*63240;
+
+
+}
+
