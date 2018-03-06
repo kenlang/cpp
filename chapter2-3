@@ -1,0 +1,20 @@
+#include <iostream>
+using std::cout;
+void state_1(void);
+void state_2(void);
+int main(){
+
+    state_1();
+    state_1();
+    state_2();
+    state_2();
+
+
+    return 0;
+}
+void state_1(void){
+   cout << "three blind mice\n";
+}
+void state_2(void){
+   cout << "see how they run\n";
+}
