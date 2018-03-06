@@ -1,0 +1,44 @@
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
+
+int trans(int);
+int main(){
+
+    int a;
+    cout << "enter your age: ";
+    cin >> a;
+    int age = trans(a);
+    cout << "your age in months is " << age;
+
+
+    return 0;
+
+}
+int trans(int b){
+
+return b*12;
+
+
+}
+
+                                                            // or like this
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
+
+int main(){
+
+    int a;
+    cout << "enter your age: ";
+    cin >> a;
+    int month = 12 * a;
+
+    cout << "your age in months is " << month;
+
+
+    return 0;
+
+}
